@@ -220,8 +220,9 @@ modules:
 🔁 version: 2c ต้องตรงกันทั้ง Prometheus และ Switch
 
 🧪 4. ทดสอบ SNMP ด้วย snmpwalk
+```
 snmpwalk -v2c -c public 192.168.99.1
-
+```
 
 หากแสดงค่า SNMP เช่น system name, uptime, interfaces แปลว่าใช้งานได้ ✅
 
